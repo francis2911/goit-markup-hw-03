@@ -14,6 +14,35 @@ body {
     --var-color-fondo1: #F5F4FA;
 }
 
+.container {
+    width: 1200px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 0 auto;
+}
+
+.container-comienzo {
+display: flex;
+width: 1200px;
+/* padding-left: 15px;
+padding-right: 15px; */
+margin-left: 15px;
+margin-right: 15px;
+margin: 0 auto;
+}
+
+.section {
+    margin: 0 auto;
+    padding-bottom: 94px;
+    padding-top: 94px;
+    /* background: #2196F3; */
+}
+
+
+
+
 /*  trabajamos en el header */
 /* en esta posicion trabajo el logo de la pagina*/
 .comienzo  {
