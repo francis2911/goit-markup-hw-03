@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #FFFFFF(0, 83%, 57%);
     color: rgba(33, 33, 33, 1);
     font-size: 14px;
@@ -18,8 +18,8 @@ body {
     width: 1200px;
     /* padding-left: 15px;
     padding-right: 15px; */
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -155,7 +155,6 @@ main li {
 }
 
 .section {
-    margin: 0 auto;
     padding-bottom: 94px;
     padding-top: 94px;
     /* background: #2196F3; */
