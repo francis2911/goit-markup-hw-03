@@ -23,7 +23,7 @@ body {
     margin: 0 auto;
 }
 
-.container-comienzo {
+.container-header {
 display: flex;
 width: 1200px;
 /* padding-left: 15px;
@@ -45,7 +45,7 @@ margin: 0 auto;
 
 /*  trabajamos en el header */
 /* en esta posicion trabajo el logo de la pagina*/
-.comienzo  {
+.header  {
     display: flex;
     background: #FFFFFF;
     height: 80px;
@@ -53,7 +53,7 @@ margin: 0 auto;
       
 }
 
-.cabecera {
+.head {
     display: flex;
     padding-left: 15px;
 
@@ -106,7 +106,7 @@ margin: 0 auto;
 /*trabaje la lista de contactos*/
 
 
-.contactos {
+.contact {
     display: flex;
     list-style: none;
     margin:auto;
@@ -114,7 +114,7 @@ margin: 0 auto;
     padding-left: 290px;
 }
 
-.contactos a {
+.contact a {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -126,8 +126,8 @@ margin: 0 auto;
     padding: 0px;
 }
 
-.contactos a:hover,
-.contactos a:focus {
+.contact a:hover,
+.contact a:focus {
     color: var(--var-color-fondo-hover-focus);
 }
 /*ya esta listo el header, vamos con el main*/
@@ -145,7 +145,7 @@ main li {
 
 /*Trabajo en la seccion principal*/
 
-.titulo{
+.tittle{
     display: flex;
     align-items: center;
     background-color: var(--var-color-fondo);
@@ -218,7 +218,7 @@ main li {
     color: var(--var-colo-text-hover-focus);
 }
 
-.detalles-principal{
+.details-principal{
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -249,7 +249,7 @@ main li {
     color: var(--var-color-text);
 }
 
-.titulo-principal{
+.tittle-principal{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -266,15 +266,15 @@ main li {
 .principal-tittle:hover,
 .principal-text:hover,
 .principal-text:active,
-.titulo-principal-equipo:hover,
-.titulo-principal:hover,
-.texto-principal:hover,
+.tittle-prin-equip:hover,
+.tittle-principal:hover,
+.text-principal:hover,
 .portfolio-tittle:hover,
 .portfolio-text:hover {
     text-decoration: underline var(--var-color-fondo-hover-focus) 1px;
 }
 
-.texto-principal{
+.text-principal{
     margin: auto;
     font-size: 14px;
     text-align: center;
@@ -285,7 +285,7 @@ main li {
 }
 
 /* Centramos las imagenes en la pagina principal */
-.contenidoimagen{
+.cont-img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -295,7 +295,7 @@ main li {
 }
 
 /* Trabajamos en los titulos del cuerpo h2 */
-.titulo-img-principal {
+.tittle-img-prin {
     margin: auto;
     padding-bottom: 50px;
     font-style: normal;
@@ -313,25 +313,25 @@ main li {
     padding: 0px;
 }
 
-.images-detalle1 {
+.images-deta1 {
     width: 373.16px;
     height: 323.7px;
     margin-left: 30.26px;
     margin-right: 23.42px;
 }
 
-.images-detalle {
+.images-details {
     width: 373.16px;
     height: 323.7px;
 }
 
-.image-prin-detalles {
+.image-prin-details {
     width: 373.16px;
     height: 323.7px;
 }
 
-.image-prin-detalles:hover,
-.image-prin-equipo:hover {
+.image-prin-details:hover,
+.image-prin-equip:hover {
     border: 2px solid var(--var-color-fondo-hover-focus);
     border-radius: 2px;
 }
@@ -339,7 +339,7 @@ main li {
 
 /* Trabajo en la section de nuestro equipo */
 
-.equipo {
+.equipment {
     display: flex;
     flex-wrap: wrap;
     background: var(--var-color-fondo1);
@@ -347,7 +347,7 @@ main li {
 } 
 
 /* Trabajamos en los titulos del cuerpo h2 */
-.titulo-principal-equipo {
+.tittle-prin-equip {
     margin: auto;
     padding-bottom: 50px;
     font-style: normal;
@@ -359,13 +359,13 @@ main li {
     color: var(--var-color-title);
 }
 
-.lista-equipo{
+.list-equip{
     display: flex;
     margin: auto;
     padding: 0px
 }
 
-.conten-img-equipo {
+.conten-img-equip {
     background: #FFFFFF;
     margin-right: 30px;
     padding-bottom: 30px;
@@ -374,14 +374,14 @@ main li {
     border-radius: 0px 0px 4px 4px;
 }
 
-.conten-img-equipo1 {
+.conten-img-equip1 {
     background: #FFFFFF;
     margin: 0 auto;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.image-prin-equipo {
+.imag-prin-equip {
     width: 270px;
     height: 260px;
 }
@@ -391,12 +391,12 @@ main li {
     text-decoration: none;
 }
 
-.cuerpo-portafolio {
+.body-portafolio {
     margin: 0 auto;
     padding: 0px;
 }
 /* Trabajo en la sección del boton pagina Portafolio */
-.contenido-button{
+.cont-button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -405,7 +405,7 @@ main li {
     padding-bottom: 50px;
 }
 
-.boton1{
+.botton1{
     width: 73px;
     height: 38px;
     margin-right: 9px;
@@ -424,7 +424,7 @@ main li {
     Background: var(--var-color-fondo-hover-focus);
 }
 
-.boton {
+.botton {
     width: 145px;
     height: 38px;
     margin-right: 9px;
@@ -440,19 +440,19 @@ main li {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.boton:hover,
-.boton:focus,
-.boton:active,
-.boton:hover,
-.boton:focus,
-.boton:active {
+.botton:hover,
+.botton:focus,
+.botton:active,
+.botton:hover,
+.botton:focus,
+.botton:active {
     cursor: pointer;
     background: var(--var-color-fondo-hover-focus);
     color: var(--var-colo-text-hover-focus);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.lista {
+.list {
     margin: 0 auto;
     padding: 0px;
     display: flex;
@@ -566,7 +566,7 @@ footer {
 
 }
 
-.link-mapa {
+.link-map {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
