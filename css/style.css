@@ -145,16 +145,18 @@ main li {
 
 /*Trabajo en la seccion principal*/
 
-.tittle{
-    display: flex;
+.hero{
     align-items: center;
-    background-color: var(--var-color-fondo);
-    filter:drop-shadow(0px 4px 4px  rgba(47, 48, 58, 1));
-    margin: auto;
-    height: 600px;
-    
-    /* padding-bottom: 94px*/
-    /*padding-top: 94px*/
+    background: var(--var-color-fondo);
+}
+
+.hero-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
 }
 
 .section {
@@ -163,7 +165,7 @@ main li {
     /* background: #2196F3; */
 }
 
-.title {
+.tittle {
     width: 696px;
     display: block;
     margin: 0 auto;
@@ -247,6 +249,7 @@ main li {
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--var-color-text);
+    text-align: justify;
 }
 
 .tittle-principal{
@@ -260,19 +263,7 @@ main li {
     color: var(--var-color-title);
 }
 
-/* Aplicamos hover para los titulos */
-.tittle:hover,
-.principal-tittle:hover,
-.principal-tittle:hover,
-.principal-text:hover,
-.principal-text:active,
-.tittle-prin-equip:hover,
-.tittle-principal:hover,
-.text-principal:hover,
-.portfolio-tittle:hover,
-.portfolio-text:hover {
-    text-decoration: underline var(--var-color-fondo-hover-focus) 1px;
-}
+
 
 .text-principal{
     margin: auto;
@@ -285,12 +276,7 @@ main li {
 }
 
 /* Centramos las imagenes en la pagina principal */
-.cont-img{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    padding-top: 94px;
+.container-images{
     padding-bottom: 94px;
 }
 
@@ -330,20 +316,11 @@ main li {
     height: 323.7px;
 }
 
-.image-prin-details:hover,
-.image-prin-equip:hover {
-    border: 2px solid var(--var-color-fondo-hover-focus);
-    border-radius: 2px;
-}
-
 
 /* Trabajo en la section de nuestro equipo */
 
 .equipment {
-    display: flex;
-    flex-wrap: wrap;
     background: var(--var-color-fondo1);
-    padding-top: 94px;
 } 
 
 /* Trabajamos en los titulos del cuerpo h2 */
