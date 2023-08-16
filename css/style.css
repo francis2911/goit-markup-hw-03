@@ -372,6 +372,10 @@ main li {
     margin: 0 auto;
     padding: 0px;
 }
+
+.h1-portfolio{
+    display: none;
+}
 /* Trabajo en la sección del boton pagina Portafolio */
 .cont-button{
     display: flex;
